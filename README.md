@@ -159,11 +159,6 @@ This project is based on my peer-reviewed published paper:
 ### 🏷️ DOI Badge
 [![DOI](https://img.shields.io/badge/DOI-10.35940%2Fijese.K2586.12111024-blue)](https://doi.org/10.35940/ijese.K2586.12111024)
 
-### 📥 Download Paper (Author Copy)
-> *(Upload your PDF into a folder named `paper/` and rename it `Published_Paper.pdf`)*  
-[Click to Download](paper/Published_Paper.pdf)
-
----
 
 ### 📘 IEEE Citation (Copy for academic use)
 
