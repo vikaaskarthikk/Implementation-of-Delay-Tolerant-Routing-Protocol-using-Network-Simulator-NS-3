@@ -1,63 +1,77 @@
-# Implementation of Delay Tolerant Routing Protocol using Network Simulator NS-3
+# 🚀 Implementation of Delay Tolerant Routing Protocol using NS-3
 
-This repository contains the implementation and performance analysis of a Delay Tolerant Routing Protocol (Epidemic Routing) using the NS-3 network simulator. The project demonstrates message propagation in intermittently connected MANET/DTN environments using the store–carry–forward routing mechanism.
+A simulation-based implementation of **Epidemic Routing** in **Delay Tolerant Networks (DTNs)** using the **NS-3 Network Simulator**.  
+This project demonstrates message propagation in intermittently connected MANETs using the **store–carry–forward** mechanism.
 
 ---
 
-## Project Overview
+## 📘 About the Project
 
-Delay/Disruption-Tolerant Networks (DTNs) address communication challenges in environments where a stable end-to-end path is not available. The Epidemic Routing Protocol solves this by forwarding messages opportunistically as nodes encounter each other.
-
+Delay/Disruption-Tolerant Networks enable communication even when stable end-to-end paths fail.  
 This project implements:
-- Epidemic Routing logic in NS-3
-- Random Waypoint mobility model
-- Wi-Fi ad-hoc communications
-- Message advertisement, request, and transmission
-- NetAnim-based network visualization
-- Performance measurement (PDR, delay, packet loss)
+
+- 📡 Epidemic Routing Protocol  
+- 🚶 Random Waypoint Mobility Model  
+- 📶 802.11b Wi-Fi Ad-Hoc Network  
+- 📨 Message Advertisement → Request → Transmission  
+- 📷 NetAnim Visual Simulation  
+- 📊 Performance Metrics (PDR, Delay, Packet Loss)  
+- 🧪 Packet-level tracing using PCAP  
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
 ```
-/src/          - NS-3 C++ source code (epidemic-routing.cc)
-/netanim/      - NetAnim XML and simulation screenshots
-/results/      - CSV logs, graphs, PCAP traces
-/report/       - Final project report PDF
-README.md      - Project documentation
-LICENSE
+📦 Epidemic-Routing-NS3
+│
+├── src/            → NS-3 C++ source code (epidemic-routing.cc)
+├── netanim/        → NetAnim XML + screenshots
+├── results/        → PDR graphs, delay charts, PCAP traces
+├── report/         → Full PDF report
+├── README.md       → Documentation
+└── LICENSE
 ```
 
 ---
 
-## Requirements
+## 🛠️ Technologies Used
 
-- NS-3 (recommended: latest stable release)
-- NetAnim (for XML visualization)
-- C++ compiler (gcc/clang)
-- Python 3 (optional for log analysis)
-- Wireshark (optional for PCAP analysis)
+| Technology | Purpose |
+|------------|---------|
+| **NS-3** | Network Simulation |
+| **C++** | Protocol Implementation |
+| **NetAnim** | Mobility + message visualizer |
+| **PCAP/Wireshark** | Packet-level tracing |
+| **Random Waypoint Model** | Node mobility simulation |
 
 ---
 
-## Running the Simulation
+## ▶️ How to Run the Simulation
 
-1. Install NS-3.
-2. Copy the files from the `src/` directory into your NS-3 `scratch/` folder.
-3. Build the project:
+### 1️⃣ Install NS-3  
+Download from official NS-3 releases.
+
+### 2️⃣ Copy the source code  
+Move `/src/` contents into your NS-3 scratch folder:
+
+```
+ns-3.xx/scratch/
+```
+
+### 3️⃣ Build the project
 
 ```
 ./waf build
 ```
 
-4. Run the simulation:
+### 4️⃣ Run the simulation
 
 ```
 ./waf --run epidemic-routing
 ```
 
-5. View the animation output in NetAnim:
+### 5️⃣ View the visualization in NetAnim
 
 ```
 netanim epidemic.xml
@@ -65,16 +79,30 @@ netanim epidemic.xml
 
 ---
 
-## Output and Results
+## 📊 Simulation Outputs
 
-The simulation produces:
-- Packet Delivery Ratio (PDR)
-- Average end-to-end delay
-- Packet loss statistics
-- NetAnim visualization of node mobility and message spread
-- PCAP traces for packet-level inspection
+This project generates:
 
-Results and screenshots are available inside:
+### ✔ Packet Delivery Ratio (PDR)
+Indicates delivery success in DTN environments.
+
+### ✔ Average End-to-End Delay
+Shows latency caused by mobility, queueing and message replication.
+
+### ✔ Packet Loss
+Increases with:
+- mobility,
+- network congestion,
+- node density.
+
+### ✔ NetAnim Visualization
+Displays:
+- node mobility  
+- message advertisement  
+- message forwarding  
+- packet flow animations  
+
+All outputs are stored in:
 
 ```
 /results/
@@ -83,14 +111,35 @@ Results and screenshots are available inside:
 
 ---
 
-## License
+## 📄 Full Project Report
 
-This project is licensed under the MIT License.
+Included inside:
+
+```
+/report/
+```
+
+Report contains:
+- Introduction  
+- DTN Architecture  
+- Epidemic Routing Protocol  
+- NS-3 Setup  
+- Pseudocode & Algorithm  
+- Graphs + Results  
+- Conclusion  
 
 ---
 
-## Author
+## 📜 License
 
-Sumith
-Vikaas Karthik K  
-Email: vikaaskarthik.k@gmail.com
+This project is licensed under the **MIT License**.
+
+---
+
+## 👤 Author
+
+**Vikaas Karthik K**  
+
+**Sumith**
+📧 Email: **vikaaskarthik.k@gmail.com**
+
