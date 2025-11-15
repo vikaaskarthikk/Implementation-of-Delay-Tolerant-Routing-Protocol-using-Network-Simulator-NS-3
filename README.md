@@ -143,3 +143,32 @@ This project is licensed under the **MIT License**.
 **Sumith**
 📧 Email: **vikaaskarthik.k@gmail.com**
 
+## 📄 Published Research Paper
+
+This project is based on my peer-reviewed published paper:
+
+**“Implementation of Delay Tolerant Routing Protocol using Network Simulator NS-3”**  
+*Author: Vikaas Karthik K*  
+*Published in: International Journal of Engineering Sciences & Emerging Technologies (IJESE)*  
+*Volume: 24, Issue 1, 2024*  
+*DOI:* **10.35940/ijese.K2586.12111024**
+
+### 🔗 DOI Link  
+[https://doi.org/10.35940/ijese.K2586.12111024](https://doi.org/10.35940/ijese.K2586.12111024)
+
+### 🏷️ DOI Badge
+[![DOI](https://img.shields.io/badge/DOI-10.35940%2Fijese.K2586.12111024-blue)](https://doi.org/10.35940/ijese.K2586.12111024)
+
+### 📥 Download Paper (Author Copy)
+> *(Upload your PDF into a folder named `paper/` and rename it `Published_Paper.pdf`)*  
+[Click to Download](paper/Published_Paper.pdf)
+
+---
+
+### 📘 IEEE Citation (Copy for academic use)
+
+K. V. Karthik, **"Implementation of Delay Tolerant Routing Protocol using Network Simulator NS-3,"**  
+*International Journal of Engineering Sciences & Emerging Technologies (IJESE)*,  
+vol. 24, no. 1, pp. 1–8, 2024, doi: 10.35940/ijese.K2586.12111024.
+
+
